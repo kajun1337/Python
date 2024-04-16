@@ -11,6 +11,7 @@ def lostFunc():
   global x
   x = "fantastic"
 
-lostFunc())
+lostFunc()
+
 
 print("Python is " + x)
