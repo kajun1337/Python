@@ -19,3 +19,7 @@ class testclass():
 print("///////////////////////////////////")
 ehli = testclass()
 print(bool(ehli))
+
+def konak(arg):
+    return True
+print(konak("tot"))
