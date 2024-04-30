@@ -1,0 +1,48 @@
+
+Python'daki while döngüsü, belirtilen koşul doğru kaldığı sürece çalışmaya devam eden oldukça esnek bir döngü yapısıdır. Bu yüzden sadece listelerle veya koleksiyonlarla kullanılmakla sınırlı değildir; birçok farklı senaryoda kullanılabilir. İşte while döngüsünün bazı yaygın kullanım alanları:
+
+1. Kullanıcı Girişi Kontrolü
+while döngüsü, kullanıcıdan geçerli bir giriş alınana kadar programın kullanıcıdan girdi istemeye devam etmesi gerektiğinde kullanılır. Örneğin, kullanıcıdan belirli bir aralıkta bir sayı girmesini isteyebilirsiniz ve yanlış giriş yapıldığında tekrar tekrar sorabilirsiniz.
+
+python
+Copy code
+girilen_sayi = None
+while girilen_sayi is None or not 1 <= girilen_sayi <= 10:
+    giris = input("Lütfen 1 ile 10 arasında bir sayı giriniz: ")
+    if giris.isdigit():
+        girilen_sayi = int(giris)
+
+print(f"Girdiğiniz sayı: {girilen_sayi}")
+2. Belirsiz Sayıda İterasyon
+Bazı durumlarda, döngünün kaç kere çalışacağını önceden bilemeyebilirsiniz. Örneğin, bir ağ üzerinden paketler alındığında ya da belirli bir durum gerçekleşene kadar bir işlemi tekrarlamak gerekebilir. Bu tür durumlar için while döngüsü idealdir.
+
+python
+Copy code
+from random import randint
+
+# Zar atma simülasyonu, 6 gelene kadar devam et
+zar = 0
+while zar != 6:
+    zar = randint(1, 6)
+    print(f"Atılan zar: {zar}")
+print("Zar 6 geldi!")
+3. Oyun Döngüleri
+Birçok video oyunu ve simülasyon, while döngüsü kullanılarak yazılır. Oyun devam ettiği sürece döngü çalışır ve oyuncu oyunu bitirdiğinde veya durdurduğunda döngü sonlanır.
+
+python
+Copy code
+oyun_devam = True
+while oyun_devam:
+    oyunu_guncelle()
+    oyun_devam = oyunu_devam_ettir()
+4. Sonsuz Döngüler
+Bazı durumlarda, bir programın sürekli çalışmasını isteyebilirsiniz. Örneğin, bir sunucu programı sürekli çalışabilir ve gelen isteklere yanıt verebilir. while True ifadesiyle sonsuz bir döngü oluşturulabilir.
+
+python
+Copy code
+while True:
+    istek = bekle_ve_istek_al()
+    if istek == 'DUR':
+        break  # Döngüyü durdur
+    istege_cevap_ver(istek)
+Bu örnekler, while döngüsünün Python'da çok çeşitli senaryolar için nasıl kullanılabileceğini göstermektedir. Esnekliği sayesinde, belirsiz süreler boyunca veya belirsiz sayıda işlem yapılması gerektiğinde çok işe yarar.
