@@ -27,3 +27,6 @@ for i in range(len(heceler)):
   print("TOPsecret",heceler[i])
 
 
+  top  = ["sado","mazo"]
+print(range(len(top)))
+
