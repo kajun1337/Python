@@ -1,8 +1,9 @@
 fruits = ["apple", "banana", "cherry"]
 fruits.remove("banana")
+ali = fruits.copy()
 print(fruits)
-
-
+if True:
+    print("test")
 
 
 
