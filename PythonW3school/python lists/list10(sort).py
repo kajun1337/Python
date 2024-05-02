@@ -20,4 +20,4 @@ print(testAnlamak)
 
 testSayilar = [98,42,56,11,87]
 testSayilar.sort(reverse=True)
-print("*",testSayilar)
+print("*" , testSayilar)
