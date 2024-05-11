@@ -19,3 +19,4 @@ benim_iterator = BenimIterator(5)
 # Iterator üzerinden geçme
 for eleman in benim_iterator:
     print(eleman)
+
