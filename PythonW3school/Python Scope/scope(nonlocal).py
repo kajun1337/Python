@@ -12,3 +12,6 @@ def ilkfonksiyon():
 
 print(ilkfonksiyon())
 
+
+
+
