@@ -2,6 +2,7 @@ import platform
 import random
 import modules3variables
 from modeules4 import kisi2
+# from modeules4 import greeting -->  bu da olabiliirdi
 import pandas
 
 
