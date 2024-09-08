@@ -28,6 +28,15 @@ a = b = 4 #
 
 # _ komutu son girilen öğeyi hafızasında tutuyor.
 
-
+print("""
+[H]=========KAJUNx========[-][o][x]
+|                                 |
+|     Programa Hoşgeldiniz!       |
+|           Sürüm 1.8             |
+|    Devam etmek için herhangi    |
+|       bir düğmeye basın.        |
+|                                 |
+|=================================|
+""")
 
 
