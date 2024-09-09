@@ -27,16 +27,3 @@ pow(16, 2, 2) #16 sayısının 2’nci kuvvetini hesapla ve çıkan sayıyı 2�
 a = b = 4 #
 
 # _ komutu son girilen öğeyi hafızasında tutuyor.
-
-print("""
-[H]=========KAJUNx========[-][o][x]
-|                                 |
-|     Programa Hoşgeldiniz!       |
-|           Sürüm 1.8             |
-|    Devam etmek için herhangi    |
-|       bir düğmeye basın.        |
-|                                 |
-|=================================|
-""")
-
-
