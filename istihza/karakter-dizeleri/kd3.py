@@ -28,3 +28,10 @@ tostman = "Tost makinesi"
  
 print(tostman[::-1]) #tersten yazdırma
 print(tostman[::2]) #ikişer atlayarak yazdırma
+
+kardiz = "istanbul"
+
+print(kardiz[0:8:2]) #2şer atlayarak yazdırma
+
+for i in reversed("Sana Gül Bahçesi Vadetmedim"):
+    print(i, end="")
