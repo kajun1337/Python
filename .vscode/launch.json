@@ -3,7 +3,7 @@
     "configurations": [
         {
             "name": "Python: Terminalde Çalıştır",
-            "type": "debugpy",
+            "type": "python",
             "request": "launch",
             "program": "${file}",
             "console": "externalTerminal",
