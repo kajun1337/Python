@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  my-python-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: my-python-app:latest
+    ports:
+      - "5678:5678"
